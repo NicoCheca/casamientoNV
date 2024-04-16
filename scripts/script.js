@@ -60,7 +60,7 @@ document.getElementById('botonAgendarCeremonia').addEventListener('click', funct
 
   // Detectar si es Android
   if (/android/i.test(userAgent)) {
-      window.open(`webcal://www.google.com/calendar/event?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`, '_blank');
+      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`, '_blank');
   }
   // Detectar si es iOS
   else if (/iPad|iPhone|iPod/i.test(userAgent)) {
@@ -84,7 +84,7 @@ document.getElementById('botonAgendarFiesta').addEventListener('click', function
 
   // Detectar si es Android
   if (/android/i.test(userAgent)) {
-      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`);
+      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`, '_blank');
   }
   // Detectar si es iOS
   else if (/iPad|iPhone|iPod/i.test(userAgent)) {
