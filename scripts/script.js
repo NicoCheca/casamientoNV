@@ -144,7 +144,7 @@ btnMapsCeremonia.addEventListener("click", function() {
 
 //Playlist Casamiento
 document.getElementById('botonSugerirCancion').addEventListener('click', function () {
-  window.open('https://open.spotify.com/playlist/3CEBqDWRvNiTB7nyPYt9oS?si=RX-0ejqVQPGP5ixFLu8yZA&pi=u-b8k0RLA_Rz-M', '_blank');
+  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=gMvUQ89ORPOqn6TXtunYlA&pi=u-kKM3MAqnTjqb&pt=5de6b32761710799f9758c518ac42592', '_blank');
 });
 
 //Redirigir a Dress Code
