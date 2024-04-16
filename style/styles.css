@@ -877,6 +877,7 @@
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
+        margin-top: 10px;
     }
     #contenidoPagina1 #ceremony {
         color: #705E52;
@@ -885,13 +886,13 @@
     }
 
     #contenidoPagina1 h2 {
-        font-size: 18px;
+        font-size: 22px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina1 p {
-        font-size: 13px;
+        font-size: 16px;
         margin-top: -20px;
         color: #A6988D;
     }
@@ -905,7 +906,7 @@
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 13px; /* Tamaño del texto del botón */
+        font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         
     }
@@ -925,6 +926,7 @@
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
+        margin-top: 10px;
     }
     #contenidoPagina2 #fiesta {
         color: #705E52;
@@ -933,13 +935,13 @@
     }
 
     #contenidoPagina2 h2 {
-        font-size: 18px;
+        font-size: 22px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina2 p {
-        font-size: 13px;
+        font-size: 16px;
         margin-top: -20px;
         color: #A6988D;
     }
@@ -953,7 +955,7 @@
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 13px; /* Tamaño del texto del botón */
+        font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     }
 
@@ -968,21 +970,22 @@
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 90px;
+        margin-top: 85px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
     }
 
     #contenidoPagina3 h2 {
-        font-size: 18px;
+        font-size: 20px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina3 p {
-        font-size: 11px;
+        font-size: 13px;
         margin-top: -20px;
+        margin-bottom: -5px;
         color: #A6988D;
         width: 200px;
     }
@@ -996,7 +999,7 @@
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 13px; /* Tamaño del texto del botón */
+        font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
