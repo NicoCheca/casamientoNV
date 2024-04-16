@@ -1014,3 +1014,615 @@ body {
         margin-bottom: 5px;
     }
 }
+
+/* Samsung galaxy S8+*/
+@media (max-width: 360px) and (max-height: 740px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section {
+        height: 100vh;
+        background-size: contain; /* La imagen de fondo se ajustará al tamaño del contenedor */
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        font-size: 24px;
+        color: #705E52;
+    }
+
+    /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
+    #section1 {
+        background-image: url('../assets/Images/HojaCasamiento.png');
+        background-color: #705E52;
+    }
+
+    #section2 {
+        background-image: url('../assets/Images/HojaFiesta.png');
+        background-color: #705E52;
+    }
+
+    #section3 {
+        background-image: url('../assets/Images/HojaSimple.png');
+        background-color: #705E52;
+    }
+
+    #section4 {
+        background-image: url('../assets/Images/HojaFoto.png');
+        background-color: #705E52;
+    }
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -5px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #countdown h2 {
+        font-size: 14px;
+        font-style: normal;
+        margin-bottom: 10px;
+    }
+
+    #countdown #timer {
+        font-size: 18px;
+        margin-top: -15px;
+    }
+
+    #timer2 {
+        font-size: 21px;
+        margin-top: -20px;
+    }
+
+    #countdown p{
+        font-size: 10px;
+        margin-top: -4px;
+        text-align: left;
+        white-space: pre;
+    }
+
+    #contenidoPagina1 {
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        margin-top: -40px;
+    }
+    #contenidoPagina1 #ceremony {
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 32px;
+    }
+
+    #contenidoPagina1 h2 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina1 p {
+        font-size: 17px;
+        margin-top: -20px;
+        color: #877b72;
+    }
+
+    #contenidoPagina1 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        
+    }
+
+    #lugar {
+        margin-top: 30px;
+    }
+
+    #direccion {
+        margin-top: 30px;
+    }
+
+    /* Contenido Pagina 2 */
+
+    #contenidoPagina2 {
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        margin-top: -30px;
+    }
+    #contenidoPagina2 #fiesta {
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 32px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 17px;
+        margin-top: -20px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #lugar {
+        margin-top: 40px;
+    }
+
+    #direccion {
+        margin-top: 40px;
+    }
+
+    /* Contenido Pagina 3 */
+
+    #contenidoPagina3 {
+        margin-top: 105px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 15px;
+        margin-top: -20px;
+        margin-bottom: -5px;
+        color: #877b72;
+        width: 200px;
+    }
+
+    #contenidoPagina3 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Galaxy S9+ */
+@media (max-width: 320px) and (max-height: 658px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section {
+        height: 100vh;
+        background-size: contain; /* La imagen de fondo se ajustará al tamaño del contenedor */
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        font-size: 24px;
+        color: #705E52;
+    }
+
+    /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
+    #section1 {
+        background-image: url('../assets/Images/HojaCasamiento.png');
+        background-color: #705E52;
+    }
+
+    #section2 {
+        background-image: url('../assets/Images/HojaFiesta.png');
+        background-color: #705E52;
+    }
+
+    #section3 {
+        background-image: url('../assets/Images/HojaSimple.png');
+        background-color: #705E52;
+    }
+
+    #section4 {
+        background-image: url('../assets/Images/HojaFoto.png');
+        background-color: #705E52;
+    }
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -1px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #countdown h2 {
+        font-size: 14px;
+        font-style: normal;
+        margin-bottom: 10px;
+    }
+
+    #countdown #timer {
+        font-size: 18px;
+        margin-top: -15px;
+    }
+
+    #timer2 {
+        font-size: 21px;
+        margin-top: -20px;
+    }
+
+    #countdown p{
+        font-size: 10px;
+        margin-top: -4px;
+        text-align: left;
+        white-space: pre;
+    }
+
+    #contenidoPagina1 {
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        margin-top: -40px;
+    }
+    #contenidoPagina1 #ceremony {
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 32px;
+    }
+
+    #contenidoPagina1 h2 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina1 p {
+        font-size: 17px;
+        margin-top: -20px;
+        color: #877b72;
+    }
+
+    #contenidoPagina1 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        
+    }
+
+    #lugar {
+        margin-top: 30px;
+    }
+
+    #direccion {
+        margin-top: 30px;
+    }
+
+    /* Contenido Pagina 2 */
+
+    #contenidoPagina2 {
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        margin-top: -30px;
+    }
+    #contenidoPagina2 #fiesta {
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 32px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 17px;
+        margin-top: -20px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #lugar {
+        margin-top: 40px;
+    }
+
+    #direccion {
+        margin-top: 40px;
+    }
+
+    /* Contenido Pagina 3 */
+
+    #contenidoPagina3 {
+        margin-top: 60px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 22px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 15px;
+        margin-top: -20px;
+        margin-bottom: -5px;
+        color: #877b72;
+        width: 200px;
+    }
+
+    #contenidoPagina3 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Samsung galaxy FOLD */
+@media (max-width: 280px) and (max-height: 653px) {
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .section {
+        height: 100vh;
+        background-size: contain; /* La imagen de fondo se ajustará al tamaño del contenedor */
+        background-position: center;
+        display: grid;
+        justify-items: center;
+        font-size: 24px;
+        color: #705E52;
+    }
+
+    /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
+    #section1 {
+        background-image: url('../assets/Images/HojaCasamiento.png');
+        background-color: #705E52;
+    }
+
+    #section2 {
+        background-image: url('../assets/Images/HojaFiesta.png');
+        background-color: #705E52;
+    }
+
+    #section3 {
+        background-image: url('../assets/Images/HojaSimple.png');
+        background-color: #705E52;
+    }
+
+    #section4 {
+        background-image: url('../assets/Images/HojaFoto.png');
+        background-color: #705E52;
+    }
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #countdown h2 {
+        font-size: 14px;
+        font-style: normal;
+        margin-bottom: 10px;
+    }
+
+    #countdown #timer {
+        font-size: 18px;
+        margin-top: -15px;
+    }
+
+    #timer2 {
+        font-size: 21px;
+        margin-top: -20px;
+    }
+
+    #countdown p{
+        font-size: 10px;
+        margin-top: -4px;
+        text-align: left;
+        white-space: pre;
+    }
+
+    #contenidoPagina1 {
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        margin-top: -55px;
+    }
+    #contenidoPagina1 #ceremony {
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 32px;
+    }
+
+    #contenidoPagina1 h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina1 p {
+        font-size: 15px;
+        margin-top: -20px;
+        color: #877b72;
+    }
+
+    #contenidoPagina1 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        
+    }
+
+    #lugar {
+        margin-top: 30px;
+    }
+
+    #direccion {
+        margin-top: 30px;
+    }
+
+    /* Contenido Pagina 2 */
+
+    #contenidoPagina2 {
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+        margin-top: -55px;
+    }
+    #contenidoPagina2 #fiesta {
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 32px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 15px;
+        margin-top: -20px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #lugar {
+        margin-top: 40px;
+    }
+
+    #direccion {
+        margin-top: 40px;
+    }
+
+    /* Contenido Pagina 3 */
+
+    #contenidoPagina3 {
+        margin-top: 95px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 13px;
+        margin-top: -20px;
+        margin-bottom: -5px;
+        color: #877b72;
+        width: 200px;
+    }
+
+    #contenidoPagina3 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+}
