@@ -1,0 +1,859 @@
+@media only screen and (max-height: 1120px) {
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contenido 1 */
+    #contenidoPagina1 {
+        margin-top: -90px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina1 #ceremony {
+        margin-top: 0px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 55px;
+    }
+    
+    #contenidoPagina1 h2 {
+        font-size: 28px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+    
+    #contenidoPagina1 p {
+        font-size: 26px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+    
+    #contenidoPagina1 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 26px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    /* Contador 2 */
+    #section2 #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 13px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contenido 2*/
+
+    #contenidoPagina2 {
+        margin-top: -100px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina2 #fiesta {
+        margin-top: 18px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 55px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 28px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 26px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 26px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    /* Contenido Pagina 3 */
+
+    #contenidoPagina3 {
+        margin-top: 25%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 28px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 24px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+        width: 400px;
+    }
+
+    #contenidoPagina3 button {
+        width: 300px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+}
+
+@media only screen and (max-height: 1080px) {
+    #contenidoPagina3 {
+        margin-top: 20%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 1032px) {
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #countdown h2 {
+        font-size: 18px;
+        font-style: normal;
+        margin-top: 1px;
+    }
+
+    #countdown #timer {
+        font-size: 24px;
+        margin-top: -20px;
+    }
+
+    #timer2 {
+        font-size: 24px;
+        margin-top: -20px;
+    }
+
+    #countdown p{
+        font-size: 15px;
+        margin-top: 0px;
+        text-align: left;
+        white-space: pre;
+    }
+
+    /* Contador 2 */
+    #section2 #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contenido 1 */
+    #contenidoPagina1 {
+        margin-top: -90px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina1 #ceremony {
+        margin-top: 0px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 45px;
+    }
+    
+    #contenidoPagina1 h2 {
+        font-size: 26px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+    
+    #contenidoPagina1 p {
+        font-size: 24px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+    
+    #contenidoPagina1 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    /* Contenido 2*/
+
+    #contenidoPagina2 {
+        margin-top: -100px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina2 #fiesta {
+        margin-top: 18px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 45px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 26px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 24px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #contenidoPagina3 {
+        margin-top: 20%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 980px) {
+
+    /* Contenido Pagina 3 */
+
+    #contenidoPagina3 {
+        margin-top: 25%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 24px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 20px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+        width: 300px;
+    }
+
+    #contenidoPagina3 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+}
+
+@media only screen and (max-height: 950px) {
+    #contenidoPagina1 {
+        margin-top: -40px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina2 {
+        margin-top: -40px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 900px) {
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contador 2 */
+    #section2 #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 12px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina1 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina2 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 {
+        margin-top: 20%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 880px) {
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 12px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #countdown h2 {
+        font-size: 16px;
+        font-style: normal;
+        margin-top: 1px;
+    }
+
+    #countdown #timer {
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    #timer2 {
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    #countdown p{
+        font-size: 11px;
+        margin-top: 0px;
+        text-align: left;
+        white-space: pre;
+    }
+
+    /* Contador 2 */
+    #section2 #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 18px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contenido 1 */
+    #contenidoPagina1 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina1 #ceremony {
+        margin-top: 0px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 45px;
+    }
+    
+    #contenidoPagina1 h2 {
+        font-size: 24px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+    
+    #contenidoPagina1 p {
+        font-size: 22px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+    
+    #contenidoPagina1 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    /* Contenido 2*/
+
+    #contenidoPagina2 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina2 #fiesta {
+        margin-top: 18px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 45px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 24px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 22px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 24px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #contenidoPagina3 {
+        margin-top: 20%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 840px) {
+
+    /* Contenido 1 */
+    #contenidoPagina1 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina1 #ceremony {
+        margin-top: 0px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 35px;
+    }
+    
+    #contenidoPagina1 h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+    
+    #contenidoPagina1 p {
+        font-size: 18px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+    
+    #contenidoPagina1 button {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    /* Contenido 2*/
+
+    #contenidoPagina2 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina2 #fiesta {
+        margin-top: 18px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 35px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 18px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #contenidoPagina3 {
+        margin-top: 25%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 18px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+        color: #877b72;
+        width: 300px;
+    }
+
+    #contenidoPagina3 button {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+}
+
+@media only screen and (max-height: 800px) {
+
+    #contenidoPagina3 {
+        margin-top: 18%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 750px) {
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contador 2 */
+    #section2 #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 {
+        margin-top: 30%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #contenidoPagina3 h2 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #705E52;
+    }
+
+    #contenidoPagina3 p {
+        font-size: 14px;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        color: #877b72;
+        width: 200px;
+    }
+
+    #contenidoPagina3 button {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 14px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+}
+
+@media only screen and (max-height: 700px) {
+
+    /* Contenido 1 */
+    #contenidoPagina1 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina1 #ceremony {
+        margin-top: 0px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 30px;
+    }
+    
+    #contenidoPagina1 h2 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+    
+    #contenidoPagina1 p {
+        font-size: 16px;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        color: #877b72;
+    }
+    
+    #contenidoPagina1 button {
+        width: 150px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #contenidoPagina3 {
+        margin-top: 20%;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    /* Contenido 2*/
+
+    #contenidoPagina2 {
+        margin-top: -30px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Petit Formal Script', cursive;
+    }
+    #contenidoPagina2 #fiesta {
+        margin-top: 18px; /* Ajusta este valor según sea necesario */
+        color: #705E52;
+        font-weight: normal; /* Elimina la negrita */
+        font-size: 30px;
+    }
+
+    #contenidoPagina2 h2 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #705E52;
+        margin-top: 10px;
+    }
+
+    #contenidoPagina2 p {
+        font-size: 16px;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        color: #877b72;
+    }
+
+    #contenidoPagina2 button {
+        width: 150px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c6b4a6; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 16px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+}
+
+@media only screen and (max-height: 650px){
+
+    /* Contador */
+    #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+    #countdown h2 {
+        font-size: 12px;
+        font-style: normal;
+        margin-top: 1px;
+    }
+
+    #countdown #timer {
+        font-size: 16px;
+        margin-top: -12px;
+    }
+
+    #timer2 {
+        font-size: 16px;
+        margin-top: -12px;
+    }
+
+    #countdown p{
+        font-size: 10px;
+        margin-top: 0px;
+        text-align: left;
+        white-space: pre;
+    }
+
+    /* Contador 2 */
+    #section2 #countdown {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        color: #705E52;
+        font-family: 'Petit Formal Script', cursive;
+    }
+
+}
+
+@media only screen and (max-height: 600px){
+
+}
