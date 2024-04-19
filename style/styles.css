@@ -164,7 +164,7 @@ body {
 /* Contenido Pagina 3 */
 
 #contenidoPagina3 {
-    margin-top: 80px;
+    margin-top: 70px;
     align-items: center;
     text-align: center;
     font-family: 'Petit Formal Script', cursive;
@@ -179,14 +179,14 @@ body {
 #contenidoPagina3 p {
     font-size: 16px;
     margin-top: -20px;
-    margin-bottom: -px;
+    margin-bottom: -0px;
     color: #877b72;
     width: 230px;
 }
 
 #contenidoPagina3 button {
     width: 200px; /* Ajusta el tamaño del botón */
-    height: 25px; /* Ajusta el tamaño del botón */
+    height: 30px; /* Ajusta el tamaño del botón */
     background-color: #A6988D; /* Color de fondo del botón */
     font-family: 'Petit Formal Script', cursive;
     color: #705E52;
