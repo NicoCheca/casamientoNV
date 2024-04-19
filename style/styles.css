@@ -1,6 +1,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url(../assets/Images/HojaLimpia.png);
+    background-size: contain; 
+    
 }
 
 .section {
@@ -11,28 +14,23 @@ body {
     justify-items: center;
     font-size: 24px;
     background-repeat: no-repeat;
-    color: #705E52;
 }
 
 /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
 #section1 {
     background-image: url('../assets/Images/HojaCasamiento.png');
-    background-color: #dacabf;
 }
 
 #section2 {
     background-image: url('../assets/Images/HojaFiesta.png');
-    background-color: #dacabf;
 }
 
 #section3 {
     background-image: url('../assets/Images/HojaSimple.png');
-    background-color: #dacabf;
 }
 
 #section4 {
     background-image: url('../assets/Images/HojaFoto.png');
-    background-color: #dacabf;
 }
 
 /* Contador */
@@ -181,7 +179,7 @@ body {
 #contenidoPagina3 p {
     font-size: 16px;
     margin-top: -20px;
-    margin-bottom: -5px;
+    margin-bottom: -px;
     color: #877b72;
     width: 230px;
 }
@@ -205,6 +203,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -221,22 +221,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -409,6 +409,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -425,22 +427,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -480,6 +482,7 @@ body {
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
+        margin-top: -40px;
     }
     #contenidoPagina1 #ceremony {
         color: #705E52;
@@ -488,6 +491,7 @@ body {
     }
 
     #contenidoPagina1 h2 {
+        margin-top: 20px;
         font-size: 22px;
         font-weight: lighter;
         color: #705E52;
@@ -495,7 +499,8 @@ body {
 
     #contenidoPagina1 p {
         font-size: 18px;
-        margin-top: -20px;
+        margin-top: -10px;
+        margin-bottom: 20px;
         color: #877b72;
     }
 
@@ -523,7 +528,7 @@ body {
     /* Contenido Pagina 2 */
 
     #contenidoPagina2 {
-        margin-top: -80px;
+        margin-top: -40px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
@@ -535,6 +540,7 @@ body {
     }
 
     #contenidoPagina2 h2 {
+        margin-top: 20px;
         font-size: 22px;
         font-weight: lighter;
         color: #705E52;
@@ -542,7 +548,8 @@ body {
 
     #contenidoPagina2 p {
         font-size: 18px;
-        margin-top: -20px;
+        margin-top: -10px;
+        margin-bottom: 20px;
         color: #877b72;
     }
 
@@ -580,19 +587,20 @@ body {
         font-size: 22px;
         font-weight: lighter;
         color: #705E52;
+        margin-top: 20px;
     }
 
     #contenidoPagina3 p {
         font-size: 18px;
-        margin-top: -20px;
-        margin-bottom: 5px;
+        margin-top: -10px;
+        margin-bottom: 10px;
         color: #877b72;
         width: 230px;
     }
 
     #contenidoPagina3 button {
         width: 200px; /* Ajusta el tamaño del botón */
-        height: 35px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
@@ -612,6 +620,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -628,22 +638,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -682,6 +692,7 @@ body {
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
+        margin-top: -40px;
     }
     #contenidoPagina1 #ceremony {
         color: #705E52;
@@ -690,15 +701,16 @@ body {
     }
 
     #contenidoPagina1 h2 {
-        font-size: 24px;
+        margin-top: 20px;
+        font-size: 22px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina1 p {
         font-size: 18px;
-        margin-top: -20px;
-        margin-bottom: -2px;
+        margin-top: -10px;
+        margin-bottom: 20px;
         color: #877b72;
     }
 
@@ -726,7 +738,7 @@ body {
     /* Contenido Pagina 2 */
 
     #contenidoPagina2 {
-        margin-top: -100px;
+        margin-top: -40px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
@@ -738,15 +750,16 @@ body {
     }
 
     #contenidoPagina2 h2 {
-        font-size: 24px;
+        margin-top: 20px;
+        font-size: 22px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina2 p {
         font-size: 18px;
-        margin-top: -20px;
-        margin-bottom: -2px;
+        margin-top: -10px;
+        margin-bottom: 20px;
         color: #877b72;
     }
 
@@ -781,22 +794,23 @@ body {
     }
 
     #contenidoPagina3 h2 {
-        font-size: 24px;
+        font-size: 22px;
         font-weight: lighter;
         color: #705E52;
+        margin-top: 20px;
     }
 
     #contenidoPagina3 p {
         font-size: 18px;
-        margin-top: -20px;
-        margin-bottom: -2px;
+        margin-top: -10px;
+        margin-bottom: 10px;
         color: #877b72;
         width: 230px;
     }
 
     #contenidoPagina3 button {
         width: 200px; /* Ajusta el tamaño del botón */
-        height: 35px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
@@ -816,6 +830,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -831,22 +847,21 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
     }
 
     /* Contador */
@@ -1020,6 +1035,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -1035,22 +1052,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -1182,7 +1199,7 @@ body {
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 105px;
+        margin-top: 40px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
@@ -1192,26 +1209,27 @@ body {
         font-size: 22px;
         font-weight: lighter;
         color: #705E52;
+        margin-top: 20px;
     }
 
     #contenidoPagina3 p {
-        font-size: 15px;
-        margin-top: -20px;
-        margin-bottom: -5px;
+        font-size: 18px;
+        margin-top: -10px;
+        margin-bottom: 10px;
         color: #877b72;
-        width: 200px;
+        width: 230px;
     }
 
     #contenidoPagina3 button {
-        width: 180px; /* Ajusta el tamaño del botón */
-        height: 25px; /* Ajusta el tamaño del botón */
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 15px; /* Tamaño del texto del botón */
+        font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
@@ -1224,6 +1242,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -1239,22 +1259,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -1428,6 +1448,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -1443,22 +1465,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -1631,6 +1653,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -1646,22 +1670,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -1835,6 +1859,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -1850,22 +1876,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
@@ -2038,6 +2064,8 @@ body {
     body {
         margin: 0;
         padding: 0;
+        background-image: url(../assets/Images/HojaLimpia.png);
+        background-size: contain;
     }
 
     .section {
@@ -2053,22 +2081,22 @@ body {
     /* Aquí se ajusta el tamaño y la posición de las imágenes de fondo */
     #section1 {
         background-image: url('../assets/Images/HojaCasamiento.png');
-        background-color: #dacabf;
+        
     }
 
     #section2 {
         background-image: url('../assets/Images/HojaFiesta.png');
-        background-color: #dacabf;
+        
     }
 
     #section3 {
         background-image: url('../assets/Images/HojaSimple.png');
-        background-color: #dacabf;
+        
     }
 
     #section4 {
         background-image: url('../assets/Images/HojaFoto.png');
-        background-color: #dacabf;
+        
     }
 
     /* Contador */
