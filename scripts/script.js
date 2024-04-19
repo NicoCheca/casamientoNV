@@ -60,15 +60,15 @@ document.getElementById('botonAgendarCeremonia').addEventListener('click', funct
 
   // Detectar si es Android
   if (/android/i.test(userAgent)) {
-      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`, '_blank');
+      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`);
   }
   // Detectar si es iOS
   else if (/iPad|iPhone|iPod/i.test(userAgent)) {
-      window.open(url, '_blank');
+      window.open(url);
   }
   // En otros casos, abrir enlace genérico
   else {
-      window.open(url, '_blank');
+      window.open(url);
   }
 });
 
@@ -84,15 +84,15 @@ document.getElementById('botonAgendarFiesta').addEventListener('click', function
 
   // Detectar si es Android
   if (/android/i.test(userAgent)) {
-      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`, '_blank');
+      window.open(`https://www.google.com/calendar/render?action=TEMPLATE&dates=${inicio}/${fin}&location=${lugar}&text=${titulo}`);
   }
   // Detectar si es iOS
   else if (/iPad|iPhone|iPod/i.test(userAgent)) {
-      window.open(url, '_blank');
+      window.open(url);
   }
   // En otros casos, abrir enlace genérico
   else {
-      window.open(url, '_blank');
+      window.open(url);
   }
 });
 
@@ -105,7 +105,7 @@ btnConfirmarCeremonia.addEventListener("click", function() {
    var mensaje = encodeURIComponent("¡Voy a asistir a la Ceremonia de Bodas!\n\nCantidad de personas: \nNombre de las personas: ");
     var telefono = "+5493512136010"; // Tu número de teléfono de WhatsApp
     var whatsappLink = "https://wa.me/" + telefono + "?text=" + mensaje;
-    window.open(whatsappLink, "_blank");
+    window.open(whatsappLink);
 });
 
 
@@ -117,7 +117,7 @@ btnConfirmarFiesta.addEventListener("click", function() {
    var mensaje = encodeURIComponent("¡Voy a asistir a la Fiesta de Bodas!\n\nCantidad de personas: \nNombre de las personas: ");
     var telefono = "+5493512136010"; // Tu número de teléfono de WhatsApp
     var whatsappLink = "https://wa.me/" + telefono + "?text=" + mensaje;
-    window.open(whatsappLink, "_blank");
+    window.open(whatsappLink);
 });
 
 
@@ -129,7 +129,7 @@ var btnMapsFiesta = document.getElementById("botonDireccionFiesta");
 // Redirigir al enlace proporcionado al hacer clic en el botón
 btnMapsFiesta.addEventListener("click", function() {
   var mapsLink = "https://www.google.com/maps/place/Sei+Fratelli/@-31.3123668,-64.1407562,17z/data=!4m12!1m5!3m4!2zMzHCsDE4JzQ0LjUiUyA2NMKwMDgnMjYuNyJX!8m2!3d-31.3123668!4d-64.1407562!3m5!1s0x943290ade443b8d1:0x61d4d70ae6e7625e!8m2!3d-31.3123668!4d-64.1381759!16s%2Fg%2F11btmqqb9p?entry=ttu";
-  window.open(mapsLink, "_blank");
+  window.open(mapsLink);
 });
 
 // Obtener botón
@@ -138,26 +138,26 @@ var btnMapsCeremonia = document.getElementById("botonDireccionCeremonia");
 // Redirigir al enlace proporcionado al hacer clic en el botón
 btnMapsCeremonia.addEventListener("click", function() {
   var mapsLinkChurch = "https://www.google.com/maps/place/Obra+Salesiana+San+Antonio+de+Padua/@-31.8415474,-64.3315262,8z/data=!4m10!1m2!2m1!1ssan+antonio+de+padua!3m6!1s0x9432a2b0d29da02b:0x9943283f1e02fcda!8m2!3d-31.4222246!4d-64.1573156!15sChRzYW4gYW50b25pbyBkZSBwYWR1YZIBEHJlbGlnaW91c19zY2hvb2zgAQA!16s%2Fg%2F1tdph8yg?entry=ttu";
-  window.open(mapsLinkChurch, "_blank");
+  window.open(mapsLinkChurch);
 });
 
 
 //Playlist Casamiento
 document.getElementById('botonSugerirCancion').addEventListener('click', function () {
-  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=gMvUQ89ORPOqn6TXtunYlA&pi=u-kKM3MAqnTjqb&pt=5de6b32761710799f9758c518ac42592', '_blank');
+  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=gMvUQ89ORPOqn6TXtunYlA&pi=u-kKM3MAqnTjqb&pt=5de6b32761710799f9758c518ac42592');
 });
 
 //Redirigir a Dress Code
 document.getElementById("botonDressCode").addEventListener('click', function(){
-  window.open('../pages/dressCode.html', '_blank');
+  window.open('../pages/dressCode.html');
 });
 
 //Redirigir a Excel con Regalos
 document.getElementById("botonRegalos").addEventListener('click', function(){
-  window.open('', '_blank');
+  window.open('');
 });
 
 //Redirigir a masInfo
 document.getElementById("botonMasInfo").addEventListener('click', function(){
-  window.open('../pages/masInfo.html', '_blank');
+  window.open('../pages/masInfo.html');
 });
