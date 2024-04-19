@@ -154,10 +154,10 @@ document.getElementById("botonDressCode").addEventListener('click', function(){
 
 //Redirigir a Excel con Regalos
 document.getElementById("botonRegalos").addEventListener('click', function(){
-  window.open('');
+  window.open('https://docs.google.com/spreadsheets/d/1repxWf8ThvRbEWbeM1qKmTEd5C2Cm50cdEotqctVpck/edit?usp=sharing');
 });
 
 //Redirigir a masInfo
-document.getElementById("botonMasInfo").addEventListener('click', function(){
+document.getElementById("botonPrecio").addEventListener('click', function(){
   window.open('../pages/masInfo.html');
 });
