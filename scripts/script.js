@@ -147,17 +147,7 @@ document.getElementById('botonSugerirCancion').addEventListener('click', functio
   window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=gMvUQ89ORPOqn6TXtunYlA&pi=u-kKM3MAqnTjqb&pt=5de6b32761710799f9758c518ac42592');
 });
 
-//Redirigir a Dress Code
-document.getElementById("botonDressCode").addEventListener('click', function(){
-  window.open('../pages/dressCode.html');
-});
-
 //Redirigir a Excel con Regalos
 document.getElementById("botonRegalos").addEventListener('click', function(){
   window.open('https://docs.google.com/spreadsheets/d/1repxWf8ThvRbEWbeM1qKmTEd5C2Cm50cdEotqctVpck/edit?usp=sharing');
-});
-
-//Redirigir a masInfo
-document.getElementById("botonPrecio").addEventListener('click', function(){
-  window.open('../pages/masInfo.html');
 });

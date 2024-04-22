@@ -184,6 +184,21 @@ body {
     width: 230px;
 }
 
+#contenidoPagina3 h3 {
+    font-size: 20px;
+    font-weight: lighter;
+    color: #705E52;
+    background-color: #c8b9ae;
+    border-radius: 25px;
+    width: 200px; /* Ajusta el tamaño del botón */
+    height: 30px;
+    border: none;
+    outline: none;
+    align-items: center;
+    margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+    display: block; /* Asegura que ocupe todo el ancho disponible */
+}
+
 #contenidoPagina3 button {
     width: 200px; /* Ajusta el tamaño del botón */
     height: 30px; /* Ajusta el tamaño del botón */
@@ -386,6 +401,20 @@ body {
         margin-bottom: 10px;
         color: #877b72;
         width: 230px;
+    }
+
+    #contenidoPagina3 h3 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 35px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
     }
 
     #contenidoPagina3 button {
@@ -598,6 +627,22 @@ body {
         width: 230px;
     }
 
+    #contenidoPagina3 h3 {
+        font-size: 20px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin-top: -10px;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
+    }
+
     #contenidoPagina3 button {
         width: 200px; /* Ajusta el tamaño del botón */
         height: 30px; /* Ajusta el tamaño del botón */
@@ -807,6 +852,7 @@ body {
         color: #877b72;
         width: 230px;
     }
+    
 
     #contenidoPagina3 button {
         width: 200px; /* Ajusta el tamaño del botón */
@@ -1008,9 +1054,24 @@ body {
     #contenidoPagina3 p {
         font-size: 15px;
         margin-top: -20px;
-        margin-bottom: -5px;
+        margin-bottom: 5px;
         color: #877b72;
         width: 200px;
+    }
+
+    #contenidoPagina3 h3 {
+        font-size: 15px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
     }
 
     #contenidoPagina3 button {
@@ -1024,7 +1085,6 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
-        margin-top: -10px;
         margin-bottom: 5px;
     }
 }
@@ -1218,6 +1278,21 @@ body {
         margin-bottom: 10px;
         color: #877b72;
         width: 230px;
+    }
+
+    #contenidoPagina3 h3 {
+        font-size: 18px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
     }
 
     #contenidoPagina3 button {
@@ -1426,6 +1501,23 @@ body {
         width: 200px;
     }
 
+    #contenidoPagina3 h3 {
+        font-size: 15px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
     #contenidoPagina3 button {
         width: 180px; /* Ajusta el tamaño del botón */
         height: 25px; /* Ajusta el tamaño del botón */
@@ -1632,6 +1724,23 @@ body {
         width: 200px;
     }
 
+    #contenidoPagina3 h3 {
+        font-size: 15px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
     #contenidoPagina3 button {
         width: 180px; /* Ajusta el tamaño del botón */
         height: 25px; /* Ajusta el tamaño del botón */
@@ -1835,6 +1944,23 @@ body {
         margin-bottom: -5px;
         color: #877b72;
         width: 200px;
+    }
+
+    #contenidoPagina3 h3 {
+        font-size: 15px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
+        margin-top: 10px;
+        margin-bottom: 5px;
     }
 
     #contenidoPagina3 button {
@@ -2043,6 +2169,23 @@ body {
         width: 200px;
     }
 
+    #contenidoPagina3 h3 {
+        font-size: 15px;
+        font-weight: lighter;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border-radius: 25px;
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px;
+        border: none;
+        outline: none;
+        align-items: center;
+        margin: 0 auto; /* Esto centrará el elemento horizontalmente */
+        display: block; /* Asegura que ocupe todo el ancho disponible */
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
     #contenidoPagina3 button {
         width: 180px; /* Ajusta el tamaño del botón */
         height: 25px; /* Ajusta el tamaño del botón */
@@ -2104,29 +2247,31 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: -10px;
+        margin-top: -3px;
         color: #705E52;
         font-family: 'Petit Formal Script', cursive;
     }
 
     #countdown h2 {
-        font-size: 12px;
+        font-size: 10px;
         font-style: normal;
         margin-bottom: 10px;
     }
 
     #countdown #timer {
-        font-size: 18px;
-        margin-top: -15px;
+        font-size: 14px;
+        margin-top: -12px;
+        margin-bottom: 2px;
     }
 
     #timer2 {
-        font-size: 18px;
+        font-size: 14px;
         margin-top: -15px;
+        margin-bottom: 2px;
     }
 
     #countdown p{
-        font-size: 10px;
+        font-size: 8px;
         margin-top: -4px;
         text-align: left;
         white-space: pre;
@@ -2153,6 +2298,7 @@ body {
     #contenidoPagina1 p {
         font-size: 13px;
         margin-top: -20px;
+        margin-bottom: -5px;
         color: #877b72;
     }
 
@@ -2201,6 +2347,7 @@ body {
     #contenidoPagina2 p {
         font-size: 13px;
         margin-top: -20px;
+        margin-bottom: -5px;
         color: #877b72;
     }
 
