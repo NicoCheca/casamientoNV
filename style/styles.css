@@ -272,11 +272,13 @@ body {
     #countdown #timer {
         font-size: 22px;
         margin-top: -20px;
+        margin-bottom: 5px;
     }
 
     #timer2 {
         font-size: 22px;
         margin-top: -20px;
+        margin-bottom: 5px;
     }
 
     #countdown p{
@@ -493,11 +495,13 @@ body {
     #countdown #timer {
         font-size: 22px;
         margin-top: -20px;
+        margin-bottom: 8px;
     }
 
     #timer2 {
         font-size: 22px;
         margin-top: -20px;
+        margin-bottom: 8px;
     }
 
     #countdown p{
@@ -706,7 +710,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: -10px;
+        margin-top: -15px;
         color: #705E52;
         font-family: 'Petit Formal Script', cursive;
     }
@@ -718,7 +722,8 @@ body {
 
     #countdown #timer {
         font-size: 22px;
-        margin-top: -24px;
+        margin-top: -20px;
+
     }
 
     #timer2 {
@@ -928,12 +933,14 @@ body {
 
     #countdown #timer {
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -12px;
+        margin-bottom: 3px;
     }
 
     #timer2 {
         font-size: 21px;
-        margin-top: -20px;
+        margin-top: -12px;
+        margin-bottom: 3px;
     }
 
     #countdown p{
@@ -1148,12 +1155,12 @@ body {
 
     #countdown #timer {
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -10px;
     }
 
     #timer2 {
-        font-size: 21px;
-        margin-top: -20px;
+        font-size: 18px;
+        margin-top: -10px;
     }
 
     #countdown p{
@@ -1370,12 +1377,14 @@ body {
 
     #countdown #timer {
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -13px;
+        margin-bottom: 3px;
     }
 
     #timer2 {
-        font-size: 21px;
-        margin-top: -20px;
+        font-size: 18px;
+        margin-top: -13px;
+        margin-bottom: 3px;
     }
 
     #countdown p{
@@ -1580,7 +1589,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: -5px;
+        margin-top: -3px;
         color: #705E52;
         font-family: 'Petit Formal Script', cursive;
     }
@@ -1593,12 +1602,12 @@ body {
 
     #countdown #timer {
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -13px;
     }
 
     #timer2 {
-        font-size: 21px;
-        margin-top: -20px;
+        font-size: 18px;
+        margin-top: -13px;
     }
 
     #countdown p{
@@ -1819,8 +1828,8 @@ body {
     }
 
     #timer2 {
-        font-size: 21px;
-        margin-top: -20px;
+        font-size: 18px;
+        margin-top: -15px;
     }
 
     #countdown p{
@@ -2025,7 +2034,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 10px;
         color: #705E52;
         font-family: 'Petit Formal Script', cursive;
     }
@@ -2038,12 +2047,12 @@ body {
 
     #countdown #timer {
         font-size: 18px;
-        margin-top: -15px;
+        margin-top: -13px;
     }
 
     #timer2 {
-        font-size: 21px;
-        margin-top: -20px;
+        font-size: 18px;
+        margin-top: -13px;
     }
 
     #countdown p{
@@ -2266,7 +2275,7 @@ body {
 
     #timer2 {
         font-size: 14px;
-        margin-top: -15px;
+        margin-top: -12px;
         margin-bottom: 2px;
     }
 
