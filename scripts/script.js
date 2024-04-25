@@ -154,17 +154,10 @@ document.getElementById("botonRegalos").addEventListener('click', function(){
 
 
 function ingresarConMusica() {
-  // Iniciar la reproducción de la música
   document.getElementById("musica").play();
-  // Aquí podrías redirigir a la página con música
-  // Por ejemplo: window.location.href = "pagina-con-musica.html";
-  alert("¡Bienvenido a la página con música!");
   document.getElementById("popup").style.display = "none";
 }
 
 function ingresarSinMusica() {
-  // Aquí podrías redirigir a la página sin música
-  // Por ejemplo: window.location.href = "pagina-sin-musica.html";
-  alert("¡Bienvenido a la página sin música!");
   document.getElementById("popup").style.display = "none";
 }
