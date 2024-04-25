@@ -8,6 +8,22 @@
         <link rel="icon" type="image/png" href="./assets/Images/Logo.png">
     </head>
     <body>
+
+        <!-- Agregar música -->
+        <audio id="musica" loop>
+            <source src="./assets/Audio/Musica.mp3" type="audio/mp3">
+            <!-- También puedes usar otros formatos de música, como OGG o WAV -->
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+
+        <div class="popup-container" id="popup">
+            <div class="popup">
+                <h2>¿Quieres ingresar a la página con música?</h2>
+                <button onclick="ingresarConMusica()">Sí</button>
+                <button onclick="ingresarSinMusica()">No</button>
+            </div>
+        </div>
+
         <div class="section" id="section4"></div>
         <div class="section" id="section1">
             <div id="countdown">
