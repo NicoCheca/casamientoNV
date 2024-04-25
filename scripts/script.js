@@ -144,7 +144,7 @@ btnMapsCeremonia.addEventListener("click", function() {
 
 //Playlist Casamiento
 document.getElementById('botonSugerirCancion').addEventListener('click', function () {
-  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=gMvUQ89ORPOqn6TXtunYlA&pi=u-kKM3MAqnTjqb&pt=5de6b32761710799f9758c518ac42592');
+  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=23c38a2222394495&pt=511c80aad6b75cee1ffd9280e188dd7d');
 });
 
 //Redirigir a Excel con Regalos
