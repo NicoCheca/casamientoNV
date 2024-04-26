@@ -336,6 +336,7 @@ body {
     cursor: pointer;
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    align-items: center;
 }
 
 .popupVestimenta-container {
@@ -389,6 +390,7 @@ body {
     cursor: pointer;
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    align-items: center;
 }
 
 /* Moto g32 */
