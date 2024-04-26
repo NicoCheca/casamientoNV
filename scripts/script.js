@@ -161,3 +161,12 @@ function ingresarConMusica() {
 function ingresarSinMusica() {
   document.getElementById("popup").style.display = "none";
 }
+
+//Boton de Costo tarjeta
+document.getElementById("botonCostoTarjeta").addEventListener('click', function(){
+  document.getElementById("popupCostoTarjeta").style.display = "block";
+});
+
+function volver() {
+  document.getElementById("popupCostoTarjeta").style.display = "none";
+}
