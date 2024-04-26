@@ -147,12 +147,6 @@ document.getElementById('botonSugerirCancion').addEventListener('click', functio
   window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=23c38a2222394495&pt=511c80aad6b75cee1ffd9280e188dd7d');
 });
 
-//Redirigir a Excel con Regalos
-document.getElementById("botonRegalos").addEventListener('click', function(){
-  window.open('https://docs.google.com/spreadsheets/d/1repxWf8ThvRbEWbeM1qKmTEd5C2Cm50cdEotqctVpck/edit?usp=sharing');
-});
-
-
 function ingresarConMusica() {
   document.getElementById("musica").play();
   document.getElementById("popup").style.display = "none";
@@ -178,4 +172,13 @@ document.getElementById("botonVestimiento").addEventListener('click', function()
 
 function volverVestimenta() {
   document.getElementById("popupVestimenta").style.display = "none";
+}
+
+//Boton Regalos
+document.getElementById("botonRegalos").addEventListener('click', function(){
+  document.getElementById("popupRegalos").style.display = "block";
+});
+
+function volverRegalos() {
+  document.getElementById("popupRegalos").style.display = "none";
 }
