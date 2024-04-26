@@ -535,22 +535,22 @@ body {
     }
     
     #contenidoPagina1 p {
-        font-size: 38px;
+        font-size: 30px;
         margin-top: -20px;
         margin-bottom: 10px;
         color: #877b72;
     }
     
     #contenidoPagina1 button {
-        width: 350px; /* Ajusta el tamaño del botón */
-        height: 60px; /* Ajusta el tamaño del botón */
+        width: 300px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 35px; /* Tamaño del texto del botón */
+        font-size: 30px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     }
     
@@ -585,22 +585,22 @@ body {
     }
     
     #contenidoPagina2 p {
-        font-size: 38px;
+        font-size: 30px;
         margin-top: -20px;
         margin-bottom: 10px;
         color: #877b72;
     }
     
     #contenidoPagina2 button {
-        width: 350px; /* Ajusta el tamaño del botón */
-        height: 60px; /* Ajusta el tamaño del botón */
+        width: 300px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 35px; /* Tamaño del texto del botón */
+        font-size: 30px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     }
     
