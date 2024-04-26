@@ -598,6 +598,33 @@ body {
         margin: 0 auto; /* Esto centrará el elemento horizontalmente */
         display: block; /* Asegura que ocupe todo el ancho disponible */
     }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 350px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 32px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 350px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 32px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
     
     #contenidoPagina3 button {
         width: 350px; /* Ajusta el tamaño del botón */
@@ -610,6 +637,115 @@ body {
         cursor: pointer;
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    /* Pop Ups*/
+    .popupCostoTarjeta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupCostoTarjeta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 500px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupCostoTarjeta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 40px;
+        color: #433830;
+    }
+    
+    .popupCostoTarjeta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 32px;
+        color: #877b72;
+    }
+    
+    .popupCostoTarjeta button {
+        width: 150px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 32px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
+    }
+    
+    .popupVestimenta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupVestimenta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 500px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupVestimenta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 40px;
+        color: #433830;
+    }
+    
+    .popupVestimenta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 32px;
+        color: #877b72;
+    }
+    
+    .popupVestimenta button {
+        width: 150px; /* Ajusta el tamaño del botón */
+        height: 50px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 32px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
     }
     
 }
@@ -700,6 +836,7 @@ body {
         margin-top: 10px; /* Ajusta este valor según sea necesario */
         color: #705E52;
         font-weight: normal; /* Elimina la negrita */
+        font-size: 60px;
     }
 
     #contenidoPagina1 h2 {
@@ -748,6 +885,7 @@ body {
         margin-top: 10px; /* Ajusta este valor según sea necesario */
         color: #705E52;
         font-weight: normal; /* Elimina la negrita */
+        font-size: 60px;
     }
 
     #contenidoPagina2 h2 {
@@ -834,6 +972,141 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     }
 
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        background-color: #c8b9ae;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+    
+    .popupCostoTarjeta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupCostoTarjeta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupCostoTarjeta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupCostoTarjeta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupCostoTarjeta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
+    }
+    
+    .popupVestimenta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupVestimenta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupVestimenta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupVestimenta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupVestimenta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
+    }
+
 }
 
 /* Iphone XR*/
@@ -917,38 +1190,38 @@ body {
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
-        margin-top: -40px;
+        margin-top: 10px;
     }
     #contenidoPagina1 #ceremony {
         color: #705E52;
         font-weight: normal; /* Elimina la negrita */
-        font-size: 42px;
+        font-size: 50px;
     }
 
     #contenidoPagina1 h2 {
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 30px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina1 p {
-        font-size: 18px;
-        margin-top: -10px;
-        margin-bottom: 20px;
+        font-size: 23px;
+        margin-top: -25px;
+        margin-bottom: 5px;
         color: #877b72;
     }
 
     #contenidoPagina1 button {
-        width: 200px; /* Ajusta el tamaño del botón */
-        height: 35px; /* Ajusta el tamaño del botón */
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 18px; /* Tamaño del texto del botón */
+        font-size: 22px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     }
 
@@ -971,33 +1244,33 @@ body {
     #contenidoPagina2 #fiesta {
         color: #705E52;
         font-weight: normal; /* Elimina la negrita */
-        font-size: 42px;
+        font-size: 50px;
     }
 
     #contenidoPagina2 h2 {
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 30px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina2 p {
-        font-size: 18px;
-        margin-top: -10px;
-        margin-bottom: 20px;
+        font-size: 23px;
+        margin-top: -25px;
+        margin-bottom: 5px;
         color: #877b72;
     }
 
     #contenidoPagina2 button {
-        width: 200px; /* Ajusta el tamaño del botón */
-        height: 35px; /* Ajusta el tamaño del botón */
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
         outline: none;
         cursor: pointer;
-        font-size: 18px; /* Tamaño del texto del botón */
+        font-size: 22px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     }
 
@@ -1012,25 +1285,25 @@ body {
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 120px;
+        margin-top: 10px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
     }
 
     #contenidoPagina3 h2 {
-        font-size: 22px;
+        font-size: 28px;
         font-weight: lighter;
         color: #705E52;
         margin-top: 20px;
     }
 
     #contenidoPagina3 p {
-        font-size: 18px;
+        font-size: 24px;
         margin-top: -10px;
         margin-bottom: 10px;
         color: #877b72;
-        width: 230px;
+        width: 330px;
     }
 
     #contenidoPagina3 h3 {
@@ -1050,8 +1323,88 @@ body {
     }
 
     #contenidoPagina3 button {
-        width: 200px; /* Ajusta el tamaño del botón */
-        height: 30px; /* Ajusta el tamaño del botón */
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 250px; /* Ajusta el tamaño del botón */
+        height: 40px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 20px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+    
+    .popupCostoTarjeta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupCostoTarjeta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupCostoTarjeta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupCostoTarjeta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupCostoTarjeta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
@@ -1060,8 +1413,61 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
-        margin-top: -10px;
-        margin-bottom: 5px;
+        align-items: center;
+    }
+    
+    .popupVestimenta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupVestimenta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupVestimenta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupVestimenta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupVestimenta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
     }
 }
 
@@ -1154,15 +1560,15 @@ body {
 
     #contenidoPagina1 h2 {
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 28px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina1 p {
-        font-size: 18px;
-        margin-top: -10px;
-        margin-bottom: 20px;
+        font-size: 22px;
+        margin-top: -25px;
+        margin-bottom: 5px;
         color: #877b72;
     }
 
@@ -1203,15 +1609,15 @@ body {
 
     #contenidoPagina2 h2 {
         margin-top: 20px;
-        font-size: 22px;
+        font-size: 28px;
         font-weight: lighter;
         color: #705E52;
     }
 
     #contenidoPagina2 p {
-        font-size: 18px;
-        margin-top: -10px;
-        margin-bottom: 20px;
+        font-size: 22px;
+        margin-top: -25px;
+        margin-bottom: 5px;
         color: #877b72;
     }
 
@@ -1239,31 +1645,31 @@ body {
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 100px;
+        margin-top: 50px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
     }
 
     #contenidoPagina3 h2 {
-        font-size: 22px;
+        font-size: 28px;
         font-weight: lighter;
         color: #705E52;
         margin-top: 20px;
     }
 
     #contenidoPagina3 p {
-        font-size: 18px;
-        margin-top: -10px;
+        font-size: 22px;
+        margin-top: -25px;
         margin-bottom: 10px;
         color: #877b72;
-        width: 230px;
+        width: 330px;
     }
     
 
     #contenidoPagina3 button {
         width: 200px; /* Ajusta el tamaño del botón */
-        height: 30px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
@@ -1272,8 +1678,141 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
-        margin-top: -10px;
-        margin-bottom: 5px;
+    }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    }
+    
+    .popupCostoTarjeta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupCostoTarjeta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupCostoTarjeta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupCostoTarjeta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupCostoTarjeta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
+    }
+    
+    .popupVestimenta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupVestimenta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupVestimenta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupVestimenta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupVestimenta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
     }
 }
 
@@ -1448,7 +1987,7 @@ body {
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 65px;
+        margin-top: 10px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
@@ -1487,6 +2026,35 @@ body {
         width: 180px; /* Ajusta el tamaño del botón */
         height: 25px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-bottom: 5px;
+    }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-bottom: 5px;
+    
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
@@ -1668,7 +2236,7 @@ body {
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 40px;
+        margin-top: 20px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
@@ -1708,6 +2276,36 @@ body {
         width: 200px; /* Ajusta el tamaño del botón */
         height: 30px; /* Ajusta el tamaño del botón */
         background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 200px; /* Ajusta el tamaño del botón */
+        height: 30px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
@@ -1943,6 +2541,38 @@ body {
         margin-top: -10px;
         margin-bottom: 5px;
     }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+
+    
 }
 
 /* BlackBerry z30*/
@@ -2115,7 +2745,7 @@ body {
     /* Contenido Pagina 3 */
 
     #contenidoPagina3 {
-        margin-top: 52px;
+        margin-top: 32px;
         align-items: center;
         text-align: center;
         font-family: 'Petit Formal Script', cursive;
@@ -2166,7 +2796,38 @@ body {
         margin-top: -10px;
         margin-bottom: 5px;
     }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
 }
+
 /* Galaxy S9+ */
 @media (max-width: 320px) and (max-height: 658px) {
 
@@ -2387,6 +3048,144 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+    }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+
+    .popupCostoTarjeta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupCostoTarjeta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 250px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupCostoTarjeta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupCostoTarjeta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupCostoTarjeta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
+    }
+    
+    .popupVestimenta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupVestimenta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 250px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupVestimenta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupVestimenta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupVestimenta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
     }
 }
 
@@ -2819,5 +3618,143 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+    }
+
+    #contenidoPagina3 #botonCostoTarjeta {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+    
+    #contenidoPagina3 #botonVestimiento {
+        width: 180px; /* Ajusta el tamaño del botón */
+        height: 25px; /* Ajusta el tamaño del botón */
+        background-color: #c8b9ae;
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        margin-top: -10px;
+        margin-bottom: 5px;
+    }
+
+    .popupCostoTarjeta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupCostoTarjeta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupCostoTarjeta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupCostoTarjeta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupCostoTarjeta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
+    }
+    
+    .popupVestimenta-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        align-items: center;
+        text-align: center;
+        display: none;
+    }
+    
+    .popupVestimenta {
+        background-image: url(../assets/Images/HojaLimpia.png);
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .popupVestimenta h2 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 26px;
+        color: #433830;
+    }
+    
+    .popupVestimenta p {
+        font-family: 'Petit Formal Script', cursive;
+        font-size: 18px;
+        color: #877b72;
+    }
+    
+    .popupVestimenta button {
+        width: 70px; /* Ajusta el tamaño del botón */
+        height: 35px; /* Ajusta el tamaño del botón */
+        margin: 0 10px;
+        cursor: pointer;
+        background-color: #A6988D; /* Color de fondo del botón */
+        font-family: 'Petit Formal Script', cursive;
+        color: #705E52;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px; /* Tamaño del texto del botón */
+        border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        align-items: center;
     }
 }
