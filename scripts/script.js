@@ -167,6 +167,15 @@ document.getElementById("botonCostoTarjeta").addEventListener('click', function(
   document.getElementById("popupCostoTarjeta").style.display = "block";
 });
 
-function volver() {
+function volverCostoTarjeta() {
   document.getElementById("popupCostoTarjeta").style.display = "none";
+}
+
+//Boton de Vestimenta 
+document.getElementById("botonVestimiento").addEventListener('click', function(){
+  document.getElementById("popupVestimenta").style.display = "block";
+});
+
+function volverVestimenta() {
+  document.getElementById("popupVestimenta").style.display = "none";
 }
