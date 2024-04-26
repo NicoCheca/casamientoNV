@@ -144,7 +144,7 @@ btnMapsCeremonia.addEventListener("click", function() {
 
 //Playlist Casamiento
 document.getElementById('botonSugerirCancion').addEventListener('click', function () {
-  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=23c38a2222394495&pt=511c80aad6b75cee1ffd9280e188dd7d');
+  window.open('https://open.spotify.com/playlist/4R63YFEjQpqA95V2y60KUh?si=02e9e846191545eb&pt=a1d400d1253e6d55900aef180b65e3c1');
 });
 
 function ingresarConMusica() {
