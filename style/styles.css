@@ -50,6 +50,7 @@ body {
     cursor: pointer;
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .section {
@@ -148,6 +149,7 @@ body {
     cursor: pointer;
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 #lugar {
@@ -197,6 +199,7 @@ body {
     cursor: pointer;
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 #lugar {
@@ -256,6 +259,7 @@ body {
     cursor: pointer;
     font-size: 16px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 #contenidoPagina3 #botonCostoTarjeta {
@@ -269,6 +273,7 @@ body {
     cursor: pointer;
     font-size: 16px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 
 }
 
@@ -283,6 +288,7 @@ body {
     cursor: pointer;
     font-size: 16px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .popupCostoTarjeta-container {
@@ -335,6 +341,7 @@ body {
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     align-items: center;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .popupVestimenta-container {
@@ -389,6 +396,7 @@ body {
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     align-items: center;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .popupRegalos-container {
@@ -442,6 +450,7 @@ body {
     font-size: 18px; /* Tamaño del texto del botón */
     border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
     align-items: center;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Moto g32 */
@@ -552,6 +561,7 @@ body {
         cursor: pointer;
         font-size: 30px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #lugar {
@@ -602,6 +612,7 @@ body {
         cursor: pointer;
         font-size: 30px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #lugar {
@@ -661,6 +672,7 @@ body {
         cursor: pointer;
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     
     }
     
@@ -675,6 +687,7 @@ body {
         cursor: pointer;
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #contenidoPagina3 button {
@@ -688,6 +701,7 @@ body {
         cursor: pointer;
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     /* Pop Ups*/
@@ -741,6 +755,7 @@ body {
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupVestimenta-container {
@@ -795,6 +810,7 @@ body {
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     .popupRegalos-container {
@@ -848,6 +864,7 @@ body {
         font-size: 32px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
 }
@@ -965,6 +982,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -1014,6 +1032,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -1072,6 +1091,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -1085,6 +1105,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     
     }
     
@@ -1099,6 +1120,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupCostoTarjeta-container {
@@ -1151,6 +1173,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupVestimenta-container {
@@ -1205,6 +1228,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     .popupRegalos-container {
@@ -1258,6 +1282,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
 }
@@ -1376,6 +1401,7 @@ body {
         cursor: pointer;
         font-size: 22px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -1425,6 +1451,7 @@ body {
         cursor: pointer;
         font-size: 22px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -1486,6 +1513,7 @@ body {
         cursor: pointer;
         font-size: 20px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -1499,6 +1527,7 @@ body {
         cursor: pointer;
         font-size: 20px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     
     }
     
@@ -1513,6 +1542,7 @@ body {
         cursor: pointer;
         font-size: 20px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupCostoTarjeta-container {
@@ -1565,6 +1595,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupVestimenta-container {
@@ -1619,6 +1650,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -1734,6 +1766,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -1783,6 +1816,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -1829,6 +1863,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -1842,6 +1877,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     
     }
     
@@ -1856,6 +1892,7 @@ body {
         cursor: pointer;
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupCostoTarjeta-container {
@@ -1908,6 +1945,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupVestimenta-container {
@@ -1962,6 +2000,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -2075,6 +2114,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -2123,6 +2163,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -2183,6 +2224,7 @@ body {
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -2197,6 +2239,7 @@ body {
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     
     }
     
@@ -2212,6 +2255,7 @@ body {
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -2324,6 +2368,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -2372,6 +2417,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -2434,6 +2480,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -2449,6 +2496,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #contenidoPagina3 #botonVestimiento {
@@ -2464,6 +2512,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -2578,6 +2627,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -2626,6 +2676,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -2689,6 +2740,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -2704,6 +2756,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #contenidoPagina3 #botonVestimiento {
@@ -2719,6 +2772,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     
@@ -2833,6 +2887,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -2881,6 +2936,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -2944,6 +3000,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -2959,6 +3016,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #contenidoPagina3 #botonVestimiento {
@@ -2974,6 +3032,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -3086,6 +3145,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -3134,6 +3194,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -3197,6 +3258,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -3212,6 +3274,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #contenidoPagina3 #botonVestimiento {
@@ -3227,6 +3290,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     .popupCostoTarjeta-container {
@@ -3279,6 +3343,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupVestimenta-container {
@@ -3333,6 +3398,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     .popupRegalos-container {
@@ -3386,6 +3452,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
 }
@@ -3499,6 +3566,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -3547,6 +3615,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -3610,6 +3679,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -3724,6 +3794,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
         
     }
 
@@ -3773,6 +3844,7 @@ body {
         cursor: pointer;
         font-size: 15px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #lugar {
@@ -3819,6 +3891,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     #contenidoPagina3 #botonCostoTarjeta {
@@ -3834,6 +3907,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     #contenidoPagina3 #botonVestimiento {
@@ -3849,6 +3923,7 @@ body {
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         margin-top: -10px;
         margin-bottom: 5px;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     .popupCostoTarjeta-container {
@@ -3901,6 +3976,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
     
     .popupVestimenta-container {
@@ -3955,6 +4031,7 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 
     .popupRegalos-container {
@@ -4008,5 +4085,6 @@ body {
         font-size: 18px; /* Tamaño del texto del botón */
         border-radius: 25px; /* Hace que el botón tenga bordes redondeados */
         align-items: center;
+        box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5);
     }
 }+
