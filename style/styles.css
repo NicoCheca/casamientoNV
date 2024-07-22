@@ -1020,7 +1020,7 @@ body {
     #contenidoPagina2 button {
         width: 200px; /* Ajusta el tamaño del botón */
         height: 35px; /* Ajusta el tamaño del botón */
-        background-color: #c8b9ae;/
+        background-color: #c8b9ae;
         font-family: 'Petit Formal Script', cursive;
         color: #705E52;
         border: none;
@@ -1247,6 +1247,10 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .poupRegalos a{
+        color: black;
     }
     
     .popupRegalos h2 {
