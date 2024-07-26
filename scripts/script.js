@@ -90,6 +90,14 @@ document.getElementById('botonAgendarFiesta').addEventListener('click', function
   else if (/iPad|iPhone|iPod/i.test(userAgent)) {
       window.open(url);
   }
+  else if (/Windows NT|Macintosh/i.test(userAgent) && /MSIE|Trident|Edge|Outlook/i.test(userAgent)) {
+    var link = document.createElement('a');
+    link.href = url;
+    link.download = 'evento.ics';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
   // En otros casos, abrir enlace genérico
   else {
       window.open(url);
