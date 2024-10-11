@@ -1,7 +1,7 @@
 //CONTADOR DE TIEMPO
   
 // Fecha y hora del evento (formato: año, mes (0-indexado), día, hora, minuto, segundo)
-var eventDate = new Date(2025, 1, 11, 19, 0, 0);
+var eventDate = new Date(2025, 0, 11, 19, 0, 0);
 
 // Función para actualizar el contador de tiempo
 function updateCountdown() {
@@ -25,7 +25,7 @@ function updateCountdown() {
   var interval = setInterval(updateCountdown, 1000);
 
 // Segunda fecha y hora del evento
-var eventDate2 = new Date(2025, 1, 11, 21, 0, 0);
+var eventDate2 = new Date(2025, 0, 11, 21, 0, 0);
 
 // Función para actualizar el segundo contador de tiempo
 function updateCountdown2() {
