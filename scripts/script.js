@@ -145,7 +145,7 @@ var btnMapsCeremonia = document.getElementById("botonDireccionCeremonia");
   
 // Redirigir al enlace proporcionado al hacer clic en el botón
 btnMapsCeremonia.addEventListener("click", function() {
-  var mapsLinkChurch = "https://www.google.com/maps/place/Obra+Salesiana+San+Antonio+de+Padua/@-31.8415474,-64.3315262,8z/data=!4m10!1m2!2m1!1ssan+antonio+de+padua!3m6!1s0x9432a2b0d29da02b:0x9943283f1e02fcda!8m2!3d-31.4222246!4d-64.1573156!15sChRzYW4gYW50b25pbyBkZSBwYWR1YZIBEHJlbGlnaW91c19zY2hvb2zgAQA!16s%2Fg%2F1tdph8yg?entry=ttu";
+  var mapsLinkChurch = "https://maps.app.goo.gl/ei2hdcP1zLL1vrAz9";
   window.open(mapsLinkChurch);
 });
 
